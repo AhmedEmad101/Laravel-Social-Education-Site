@@ -137,7 +137,9 @@ return view('SearchResults');
         'UserN'=>$FoundedUser ,
         'FriendName'=> $userName
     ]);
+
     if($query){
+
     return( 'You added '.$FoundedUser.' added successfully');
     }
     else{
